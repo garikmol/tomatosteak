@@ -5815,6 +5815,7 @@ button.close {
     display: none !important; } }
 
 .redtop {
+  color: #ffffff;
   min-height: 74px;
   background-color: #f44336;
   padding-top: 7px; }
@@ -5826,6 +5827,14 @@ button.close {
   box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.54);
   width: 58px;
   height: 58px; }
+
+.circle-icon-sm {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.55);
+  width: 14px;
+  height: 14px; }
 
 .wavytop {
   height: 7px;
