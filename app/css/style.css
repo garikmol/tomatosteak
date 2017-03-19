@@ -5942,6 +5942,7 @@ button.close {
   padding-top: 7px; }
 
 .circle-icon-lg {
+  display: inline-block;
   padding: 16.5px;
   -webkit-border-radius: 50%;
           border-radius: 50%;
@@ -5960,6 +5961,9 @@ button.close {
           box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.55);
   width: 14px;
   height: 14px; }
+
+.top-icon-note {
+  display: inline-block; }
 
 .wavytop {
   height: 7px;
