@@ -20,3 +20,5 @@ node_modules
 /.idea
 *.json
 /gulpfile.js
+/.bowerrc
+/npm-debug.log
