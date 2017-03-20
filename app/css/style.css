@@ -5939,10 +5939,14 @@ button.close {
   color: #ffffff;
   min-height: 74px;
   background-color: #f44336;
-  padding-top: 7px; }
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 38px; }
 
 .circle-icon-lg {
-  padding: 16.5px;
+  margin-top: 8px;
+  display: block;
   -webkit-border-radius: 50%;
           border-radius: 50%;
   background-color: #fee7e5;
@@ -5950,6 +5954,16 @@ button.close {
           box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.54);
   width: 58px;
   height: 58px; }
+
+.fon {
+  background-image: url("../images/phone.png");
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+.clock {
+  background-image: url("../images/clock.png");
+  background-position: center center;
+  background-repeat: no-repeat; }
 
 .circle-icon-sm {
   display: inline-block;

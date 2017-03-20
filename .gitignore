@@ -18,7 +18,7 @@ test/dummy_rails/public/assets/
 .DS_Store
 node_modules
 /.idea
-*.bowerrc
+*.json
 /gulpfile.js
-/package.json
-*.log
+/.bowerrc
+/npm-debug.log
