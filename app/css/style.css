@@ -5990,7 +5990,8 @@ button.close {
 .dish-info__name_price {
   color: #000;
   font-family: Montserrat, sans-serif;
-  opacity: .8; }
+  opacity: .8;
+  margin-top: 30px; }
 
 .dish-info__name {
   font-size: 16px;
@@ -6008,8 +6009,18 @@ button.close {
 .dish-info__about {
   color: #fee7e5;
   font-size: 14px;
+  margin-top: 30px;
   opacity: .8;
   padding-left: 50px; }
+
+.dish-info__button {
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  border-color: #fee7e7;
+  color: #fee7e7;
+  margin-top: 30px;
+  font-family: Montserrat, sans-serif;
+  width: 150px; }
 
 .section1__wavy-line--bottom {
   height: 7px;
@@ -6024,5 +6035,8 @@ button.close {
   .dish-info {
     margin-top: 15px; }
   .dish-info__about {
+    margin-top: 0;
     padding: 5px;
-    text-align: justify; } }
+    text-align: justify; }
+  .dish-info__button {
+    margin-top: 0; } }
