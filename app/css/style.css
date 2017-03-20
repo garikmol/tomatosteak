@@ -5980,10 +5980,6 @@ button.close {
   background-image: url("../images/wavy line.png"); }
 
 .section1 {
-<<<<<<< HEAD
-  height: 450px;
-  background-image: url("../images/section1/bgd_sec1.png"); }
-=======
   background-image: url("../images/section1/bgd_sec1.png"); }
 
 .dish {
@@ -6059,4 +6055,3 @@ button.close {
     text-align: justify; }
   .dish-info__button {
     margin-top: 0; } }
->>>>>>> html/section1
