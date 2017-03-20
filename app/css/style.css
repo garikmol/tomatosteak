@@ -5966,7 +5966,6 @@ button.close {
   background-image: url("../images/wavy line.png"); }
 
 .section1 {
-  height: 450px;
   background-image: url("../images/section1/bgd_sec1.png"); }
 
 .dish {
@@ -5981,4 +5980,49 @@ button.close {
 .dish-info {
   margin: 0 auto;
   margin-top: 30%;
-  text-align: center; }
+  text-align: right; }
+
+.dish-info__title {
+  color: #fee7e7;
+  font-family: Kadwa, serif;
+  font-size: 22px; }
+
+.dish-info__name_price {
+  color: #000;
+  font-family: Montserrat, sans-serif;
+  opacity: .8; }
+
+.dish-info__name {
+  font-size: 16px;
+  font-weight: 600; }
+
+.dish-info__oldPrice {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: line-through; }
+
+.dish-info__newPrice {
+  font-size: 26px;
+  font-weight: 800; }
+
+.dish-info__about {
+  color: #fee7e5;
+  font-size: 14px;
+  opacity: .8;
+  padding-left: 50px; }
+
+.section1__wavy-line--bottom {
+  height: 7px;
+  background-image: url("../images/wavy line.png"); }
+
+/*media-request*/
+@media only screen and (max-width: 767px) {
+  .dish {
+    text-align: center; }
+  .dish__img {
+    width: 65%; }
+  .dish-info {
+    margin-top: 15px; }
+  .dish-info__about {
+    padding: 5px;
+    text-align: justify; } }
