@@ -5818,6 +5818,7 @@ button.close {
 
 .redtop {
   color: #ffffff;
+  min-height: 74px;
   background-color: #f44336;
   font-family: Montserrat, sans-serif;
   font-size: 14px;
@@ -5825,6 +5826,7 @@ button.close {
   line-height: 38px; }
 
 .circle-icon-lg {
+  margin-top: 8px;
   display: block;
   border-radius: 50%;
   background-color: #fee7e5;
@@ -5849,9 +5851,6 @@ button.close {
   box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.55);
   width: 14px;
   height: 14px; }
-
-.top-icon-note {
-  display: inline-block; }
 
 .wavytop {
   height: 7px;
