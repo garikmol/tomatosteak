@@ -3936,11 +3936,11 @@ tbody.collapse.in {
 
 .navbar-default {
   background-color: transparent;
-  border-color: transparent; }
+  border-color: none; }
   .navbar-default .navbar-brand {
-    color: #777; }
+    color: #fff; }
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-      color: #5e5e5e;
+      color: #e6e6e6;
       background-color: transparent; }
   .navbar-default .navbar-text {
     color: #777; }
@@ -3963,7 +3963,7 @@ tbody.collapse.in {
       background-color: #888; }
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
-    border-color: transparent; }
+    border-color: none; }
   .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     background-color: transparent;
     color: #555; }
@@ -5816,6 +5816,15 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+/*Шрифт для логотипа*/
+@font-face {
+  font-family: "GoudyStout";
+  src: url("../fonts/GOUDYSTO.eot");
+  src: local("GoudyStout");
+  src: url("../fonts/GOUDYSTO.eot#GoudyStout") format("svg");
+  src: url("../fonts/GOUDYSTO.ttf") format("truetype");
+  src: url("../fonts/GOUDYSTO.woff") format("woff"); }
+
 .redtop {
   color: #ffffff;
   min-height: 74px;
@@ -5935,6 +5944,36 @@ button.close {
 .wavytop {
   height: 7px;
   background-image: url("../images/wavy line.png"); }
+
+.navbar-brand {
+  display: block;
+  text-align: center; }
+
+.logo-lg {
+  font-family: GoudyStout, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px; }
+  .logo-lg .logo-second-color {
+    color: #b71c1c; }
+
+.logo-sm {
+  font-family: Kadwa;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 6px; }
+
+.nav > li > a:after {
+  content: '';
+  position: absolute;
+  width: 35px;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 2px;
+  background: #fff; }
 
 /*media-request*/
 @media only screen and (max-width: 767px) {
