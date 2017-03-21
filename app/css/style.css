@@ -6037,6 +6037,25 @@ button.close {
   font-family: Montserrat, sans-serif;
   width: 150px; }
 
+/*----------------------------cart-----------------------------------*/
+.cart__relative {
+  position: relative; }
+
+.wrap__fixed {
+  position: fixed;
+  top: -33px;
+  right: 144px;
+  height: 66px;
+  width: 66px; }
+
+.circle-cart {
+  position: absolute;
+  background-image: url("../images/section1/cart.png");
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  z-index: 100; }
+
 .section1__wavy-line--bottom {
   height: 7px;
   background-image: url("../images/wavy line.png"); }
