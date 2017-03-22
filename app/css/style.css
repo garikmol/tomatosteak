@@ -2789,7 +2789,7 @@ select[multiple].input-lg,
 .btn {
   display: inline-block;
   margin-bottom: 0;
-  font-weight: normal;
+  font-weight: 600;
   text-align: center;
   vertical-align: middle;
   touch-action: manipulation;
@@ -4314,7 +4314,7 @@ a.badge:hover, a.badge:focus {
         padding-right: 60px; }
       .jumbotron h1,
       .jumbotron .h1 {
-        font-size: 63px; } }
+        font-size: 48px; } }
 
 .thumbnail {
   display: block;
@@ -6009,6 +6009,13 @@ button.close {
   .top-menu {
     margin-top: 12px;
     margin-bottom: 10px; } }
+
+.jumbotron_main {
+  text-align: center; }
+  .jumbotron_main h1 {
+    font-family: Kadwa, serif;
+    font-size: 48px;
+    font-weight: 700; }
 
 /*media-request*/
 @media only screen and (max-width: 767px) {
