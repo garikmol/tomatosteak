@@ -5978,7 +5978,7 @@ button.close {
   font-weight: 400; }
 
 @media not screen and (max-width: 1000px) {
-  .navbar-nav li > a:hover:after, .navbar-nav li > a:active:after {
+  .navbar-nav li > a:hover:after, .navbar-nav li > a:focus:after {
     content: '';
     position: absolute;
     width: 34px;
