@@ -147,7 +147,8 @@ $table-border-color:            #ddd !default;
 //
 //## For each of Bootstrap's buttons, define text, background and border color.
 
-$btn-font-weight:                normal !default;
+//$btn-font-weight:                normal !default;
+$btn-font-weight:                600;
 
 $btn-default-color:              $baseWithe;
 $btn-default-bg:                 transparent;
@@ -176,9 +177,11 @@ $btn-danger-border:              darken($btn-danger-bg, 5%) !default;
 $btn-link-disabled-color:        $gray-light !default;
 
 // Allows for customizing button radius independently from global border radius
-$btn-border-radius-base:         $border-radius-base !default;
-$btn-border-radius-large:        $border-radius-large !default;
-$btn-border-radius-small:        $border-radius-small !default;
+$btn-border-radius-base:         20px;
+//$btn-border-radius-large:        $border-radius-large !default;
+$btn-border-radius-large:        25px;
+//$btn-border-radius-small:        $border-radius-small !default;
+$btn-border-radius-small:        20px;
 
 
 //== Forms
@@ -499,7 +502,8 @@ $jumbotron-color:                $baseWithe;
 $jumbotron-bg:                   transparent;
 $jumbotron-heading-color:        inherit !default;
 $jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;
-$jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;
+//$jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;
+$jumbotron-heading-font-size:    48px;
 
 
 //== Form states and alerts
