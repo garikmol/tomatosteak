@@ -6073,11 +6073,12 @@ button.close {
     font-family: Kadwa, serif;
     font-weight: 700; }
 
+/*--------------  steak line -------------- */
 .steak-line-lg {
   position: relative;
   width: 41px;
   height: 41px;
-  background: url("../images/svg/meat.svg");
+  background: url("../images/svg/meat1.svg");
   background-repeat: no-repeat;
   background-position: center center; }
   .steak-line-lg:after {
@@ -6178,6 +6179,10 @@ button.close {
   padding-left: 50px; }
 
 .dish-info__button {
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-right-width: 2px;
+  border-left-width: 2px;
   -webkit-border-radius: 50px;
           border-radius: 50px;
   border-color: #fee7e7;
@@ -6203,7 +6208,7 @@ button.close {
   padding-top: 35px;
   padding-left: 40px; }
 
-#counGoods {
+#countGoods {
   font-family: Montserrat, sans-serif;
   font-size: 10px;
   color: #f44336; }
@@ -6218,6 +6223,12 @@ button.close {
 /*------------------------ START    Section 2---------------------*/
 .section2 {
   background-image: url("../images/section2/bgd_sec2.png"); }
+
+.aboutOur {
+  width: 100%; }
+
+.aboutOur__img {
+  width: 100%; }
 
 /*------------------------ END    Section 2---------------------*/
 /*-------------------------------------------------------------------*/
