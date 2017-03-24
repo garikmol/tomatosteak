@@ -6133,20 +6133,22 @@ button.close {
 .cart__relative {
   position: relative; }
 
-.wrap__fixed {
-  position: fixed;
-  top: 33px;
-  right: 5%;
-  height: 66px;
-  width: 66px; }
-
 .circle-cart {
   position: absolute;
+  top: -33px;
+  right: 5%;
   background-image: url("../images/icon-cart/cart.svg");
   background-repeat: no-repeat;
   width: 64px;
   height: 64px;
-  z-index: 100; }
+  z-index: 100;
+  padding-top: 35px;
+  padding-left: 40px; }
+
+#counGoods {
+  font-family: Montserrat, sans-serif;
+  font-size: 10px;
+  color: #f44336; }
 
 /*----------------------------wave line bottom-----------------------------------*/
 .section1__wavy-line--bottom {
