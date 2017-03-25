@@ -2795,12 +2795,12 @@ select[multiple].input-lg,
   touch-action: manipulation;
   cursor: pointer;
   background-image: none;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   white-space: nowrap;
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857;
-  border-radius: 4px;
+  border-radius: 20px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -3075,19 +3075,19 @@ fieldset[disabled] a.btn {
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.33333;
-  border-radius: 6px; }
+  border-radius: 25px; }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
-  border-radius: 3px; }
+  border-radius: 20px; }
 
 .btn-xs, .btn-group-xs > .btn {
   padding: 1px 5px;
   font-size: 12px;
   line-height: 1.5;
-  border-radius: 3px; }
+  border-radius: 20px; }
 
 .btn-block {
   display: block;
@@ -3387,16 +3387,16 @@ tbody.collapse.in {
   border-radius: 0; }
 
 .btn-group-vertical > .btn:first-child:not(:last-child) {
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0; }
 
 .btn-group-vertical > .btn:last-child:not(:first-child) {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px; }
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px; }
 
 .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {
   border-radius: 0; }
@@ -5935,10 +5935,10 @@ button.close {
   background-image: url("../images/wavy line.png"); }
 
 .mainhead {
-  min-height: 650px;
+  min-height: 573px;
   background-image: url("../images/background.jpg");
-  background-position: center top;
-  background-repeat: repeat-x;
+  background-position: center bottom;
+  background-repeat: repeat;
   background-color: #32190d; }
 
 .wavytop {
@@ -5960,7 +5960,8 @@ button.close {
   font-family: GoudyStout, sans-serif;
   font-size: 20px;
   font-weight: 400;
-  line-height: 28px; }
+  line-height: 28px;
+  letter-spacing: 0.11em; }
   .logo-lg .logo-second-color {
     color: #b71c1c; }
 
@@ -5970,12 +5971,14 @@ button.close {
   font-size: 12px;
   font-weight: 400;
   line-height: 28px;
-  margin-top: 6px; }
+  margin-top: 6px;
+  letter-spacing: 0.11em; }
 
 .navbar-nav {
   font-family: Kadwa;
   font-size: 16px;
-  font-weight: 400; }
+  font-weight: 400;
+  letter-spacing: 0.02em; }
 
 @media not screen and (max-width: 1000px) {
   .navbar-nav li > a:hover:after, .navbar-nav li > a:focus:after {
@@ -6011,10 +6014,18 @@ button.close {
     margin-bottom: 10px; } }
 
 .jumbotron_main {
-  text-align: center; }
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 0; }
   .jumbotron_main h1 {
     font-family: Kadwa, serif;
-    font-weight: 700; }
+    font-weight: 700;
+    letter-spacing: 0.11em;
+    margin-bottom: 26px; }
+
+.btn-pos-jambo {
+  margin-top: 30px; }
 
 .steak-line-lg {
   position: relative;
@@ -6067,6 +6078,30 @@ button.close {
     left: 0;
     margin-left: -94px;
     background-color: rgba(255, 255, 255, 0.54); }
+
+.btn {
+  font-family: 'Montserrat';
+  line-height: 24px;
+  letter-spacing: 0.11em; }
+
+.btn-primary {
+  font-size: 14px;
+  font-weight: 600; }
+
+.btn-lg, .btn-group-lg > .btn {
+  width: 190px;
+  padding-top: 11px;
+  padding-bottom: 11px; }
+
+.btn-med {
+  width: 150px;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+
+.btn-sm, .btn-group-sm > .btn {
+  width: 145px;
+  padding-top: 6px;
+  padding-bottom: 6px; }
 
 /*media-request*/
 @media only screen and (max-width: 767px) {
