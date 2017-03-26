@@ -5878,17 +5878,29 @@ button.close {
 .section1 {
   background-image: url("../images/section1/bgd_sec1.png"); }
 
-.dish {
-  width: 100%; }
+.dish_img {
+  margin-top: -96px; }
+  .dish_img img {
+    max-width: 100%;
+    max-height: 100%; }
 
-.dish__img {
-  width: 100%;
-  transform: rotate(-25deg); }
+@media (min-width: 1490px) {
+  .dish_img {
+    margin: -96px 0 -61px -170px; } }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .dish_img {
+    margin: -96px 0 -200px 0; } }
+
+@media (max-width: 480px) {
+  .dish_img {
+    margin-top: -40px; } }
 
 .dish-info {
-  margin: 0 auto;
-  margin-top: 30%;
-  text-align: right; }
+  margin-top: 120px;
+  margin-bottom: 79px;
+  text-align: right;
+  max-width: 523px; }
 
 .dish-info__title {
   color: #fee7e7;
@@ -6026,6 +6038,9 @@ button.close {
 
 .btn-pos-jambo {
   margin-top: 30px; }
+
+.push-bottom {
+  height: 60px; }
 
 .steak-line-lg {
   position: relative;
