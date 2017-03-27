@@ -15,11 +15,12 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <link href="css/style.css" rel="stylesheet">
-    <![endif]-->
+    <!--[endif]-->
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<div class="container-fluid redtop"> <!--container for top of header -->
+<!-- ---------------- container for top of header ---------------------------------->
+<div class="container-fluid redtop"> 
     <div class="container">
         <div class="row">
             <div class="col-lg-9 col-md-8 col-sm-7">
@@ -60,15 +61,12 @@
     </div>
 </div>
 
-
 <!--Секция основного хедера -->
 <div class="container-fluid mainhead">
     <div class="row wavytop">
     </div>
-
     <nav class="navbar navbar-default">
         <div class="container">
-
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -83,8 +81,7 @@
                     <div class="logo-sm">Family Steak House</div>
                 </a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
+<!-------------- Collect the nav links, forms, and other content for toggling ------------------->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a class="active" href="index.html">HOME <span class="sr-only">(current)</span></a></li>
@@ -92,10 +89,7 @@
                     <li><a href="#">ABOUT US</a></li>
                     <li><a href="#">BLOG</a></li>
                     <li><a href="#">CONTACTS</a></li>
-
                 </ul>
-
-
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
@@ -111,9 +105,16 @@
     </div>
     <div class="push-bottom"></div>
 </div>
-
-
+<!-- -------------------------------- container section1 ----------------------------->
 <div class="container-fluid section1"> <!--container section1 -->
+<!----------------------- start fixed-cart  ---------------------------------->
+    <div class="row cart__relative">
+        <div class="circle-cart">
+            <span id="countGoods">2</span>
+        </div>
+    </div>
+    <!-- ------------------------------------- end fixed cart ----------------->
+    <!---------------------------container section1 --------------------------->
     <div class="container">
         <div class="row">
             <div class="col-lg-6 dish">
@@ -145,10 +146,76 @@
         </div>
     </div>
 </div>
-<div class="section1__wavy-line--bottom">
-
+<div class="section1__wavy-line--bottom"></div>
+<!----------------------------- START Section 2 ---------------------------------------->
+<div class="container-fluid section2">
+    <div class="jumbotron jumbotron_main">
+        <h3 class="aboutOur__title--h3">ABOUT OUR STEAK HOUSE</h3>
+        <div class="steak-line-sm center-block"></div>
+    </div>
+    <div class="row">
+        <div class="container">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="aboutOur">
+                    <img class="aboutOur__img" src="images/01_Home/about_steak_house.png" alt="photo about steak house">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="aboutOur-info">
+                    <h4 class="aboutOur__title--h4">THIS FAMILY-RUN STEAK HOUSE</h4>
+                    <p class="aboutOur-info__about">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum eligendi nemo et,
+                        incidunt sapiente perspiciatis molestias odio obcaecati nam illo ea quo repellendus
+                        aperiam numquam possimus recusandae dolores tempore labore!
+                    </p>
+                    <p class="aboutOur-info__about">
+                        Repellendus, architecto, cum? Corrupti, libero quo deleniti, amet quisquam expedita
+                        adipisci voluptatum voluptas et beatae perferendis earum voluptatem ab necessitatibus
+                        dolorem ad tempora atque labore illum. Quas, ex, deserunt. Et.
+                    </p>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default aboutOur-info__button">READ MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+<!----------------------------- END SECTION 2 ---------------------------------------->
 
+<!------------------------------ START SECTION 3 ------------------------------------->
+<div class="container-fluid section3">
+    <div class="jumbotron jumbotron_main">
+        <h3 class="menuOur__title--h3">OUR STEAK MENU</h3>
+        <div class="steak-line-sm__black center-block"></div>
+    </div>
+    <div class="row">
+        <div class="container">
+<!------------------------------  START  menu goods prise --------------------------------------------------->
+<!-----------------------------------  FIRST PRODUCT  --------------------------------------------------------->
+            <div class="col-lg-2 col-md-2 col-sm-2">
+                <div class="menuGoods">
+                    <img class="menuGoods__img" src="images/01_Home/meat-1846223.jpg" alt="phone">
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-8 menuGoods__about">
+                <h4 class="menuOur__title--h4">01. RIBEYE STEAK WITH GRILLED VEGETABLES</h4>
+                <p class="menuOur__paragraph">Garnish to choose from</p>
+                <p class="menuOur__paragraph">Sauce on a choice</p>
+                <p class="menuOur__paragraph">Weight: 180*</p>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2">
+                <p class="menuOur__price">$ 16<sup>90</sup></p>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default menuOur__button">ADD TO CART</button>
+                </div>
+            </div>
+<!-----------------------------------  END FIRST PRODUCT  --------------------------------------------------------->
+
+        </div>
+    </div>
+</div>
+<!--------------------------------- END SECTION 3 ----------------------------------->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
