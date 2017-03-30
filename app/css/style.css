@@ -6107,6 +6107,10 @@ button.close {
   padding-top: 6px;
   padding-bottom: 6px; }
 
+.carousel {
+  min-height: 720px;
+  background-image: url("../images/carusel/background.jpg"); }
+
 .client {
   width: 121px;
   height: 121px;
