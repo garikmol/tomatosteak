@@ -5566,7 +5566,7 @@ button.close {
     margin: 0;
     width: 12px;
     height: 12px;
-    background-color: #fff; }
+    background-color: #f44336; }
 
 .carousel-caption {
   position: absolute;
@@ -5576,7 +5576,7 @@ button.close {
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #fff;
+  color: #f44336;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
   .carousel-caption .btn {
@@ -5940,7 +5940,7 @@ button.close {
     background: #fff; } }
 
 @media not screen and (max-width: 1000px) {
-  .active:after {
+  .activ_menu:after {
     content: '';
     position: absolute;
     width: 34px;
@@ -6109,7 +6109,8 @@ button.close {
 
 .carousel {
   min-height: 720px;
-  background-image: url("../images/carusel/background.jpg"); }
+  background-image: url("../images/carusel/background.jpg");
+  color: #fff; }
 
 .client {
   width: 121px;
@@ -6125,7 +6126,14 @@ button.close {
   height: 295px;
   background-image: url("../images/carusel/popup.svg");
   padding: 40px 24px 24px 24px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left; }
+  .popup h4 {
+    font-weight: 700; }
   .popup ul {
     position: absolute;
     bottom: 0;
@@ -6145,6 +6153,12 @@ button.close {
   width: 25px;
   height: 25px;
   background-image: url("../images/svg/meat.svg"); }
+
+.section_heder h3 {
+  font-family: Kadwa;
+  font-size: 26px;
+  text-align: center;
+  letter-spacing: 0.11em; }
 
 /* -------------------- END  HEADER -------------------------------*/
 /*-------------------------------------------------------------------*/
