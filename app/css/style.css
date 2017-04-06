@@ -6115,6 +6115,9 @@ button.close {
   background-size: cover;
   color: #fff; }
 
+.item {
+  margin-bottom: 100px; }
+
 .client {
   width: 121px;
   height: 121px;
@@ -6163,8 +6166,7 @@ button.close {
   margin-bottom: 25px; }
 
 .opinion {
-  margin-top: 37px;
-  margin-bottom: 100px; }
+  margin-top: 37px; }
 
 .carousel-indicators li {
   margin-left: 6px !important;
